@@ -1,0 +1,1 @@
+A simple project, want to use vanilla CSS, JS to make a website better, without 3rd-parties libraries or framworks
