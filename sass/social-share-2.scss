@@ -1,0 +1,30 @@
+.share-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50px);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    .share-item {
+        text-align: center;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid #f7f8f9;
+        background: #f7f8f9;
+        box-shadow: 0px 5px 15px -5px #545454;
+        svg {
+            transition: all 500ms ease-in-out;
+            position: relative;
+            top: 50%;
+            transform: translate(0, -50%);
+            width: 15px;
+            fill: #0066cc;
+        }
+    }
+    .share-item:hover svg {
+        fill: #ffffff;
+    }
+    .share-item:hover {
+        background: #0066cc;
+    }
+}
+

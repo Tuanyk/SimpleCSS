@@ -1,0 +1,48 @@
+#service_box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 20px;
+  justify-content: center;
+}
+#service_box .box {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  align-items: center;
+  padding: 5px 10px;
+  height: 100%;
+}
+#service_box .box .icon_box {
+  display: grid;
+  grid-template-columns: 50px;
+  align-items: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #0066cc;
+}
+#service_box .box .icon_box i {
+  color: #ffffff;
+}
+#service_box .box .desc_box {
+  padding-left: 20px;
+}
+#service_box .box .desc_box .title {
+  font-size: 18px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: #0066cc;
+  font-weight: 700;
+  display: block;
+}
+#service_box .box .desc_box .description {
+  display: block;
+  font-size: 15px;
+  color: #555555;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=same-height-box.css.map */
