@@ -1,0 +1,1 @@
+.blink{animation:blinker .2s step-start infinite}@keyframes blinker{0%{opacity:1}50%{opacity:.7}100%{opacity:.5}}/*# sourceMappingURL=change-image-periodically.css.map */
